@@ -1,7 +1,7 @@
 var Board = function(row, col){
     var row = row;
     var col = col;
-
+    
     // init frontier
     var frontier = new Array();
     for(var i=0; i<col; i++) {
